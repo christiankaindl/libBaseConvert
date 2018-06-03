@@ -1,8 +1,7 @@
 'use strict';
 
-var Base = {
+const Base = {
 	convert (from, targetBase, number) {
-		var isComma = isComma || false;
 		var results = [];
 		// Convert targetBase to array if it is not yet
 		targetBase = Array.isArray(targetBase) ? targetBase : [targetBase];
